@@ -1,0 +1,37 @@
+h1 {
+    font-size: 38px;
+    font-style: italic;
+    color: #333;
+    padding: 10px;
+    text-shadow: -1px -1px 0px #101010, 1px 1px 0px #505050;
+  }
+
+table {  color: #331; font-family: Helvetica, Arial, sans-serif; width: 640px; border-collapse: collapse;}
+
+td, th { border: 1px solid transparent; height: 30px; }
+
+th { background: #D3D3D3; font-weight: bold; }
+
+td { background: #FAFAFA; text-align: center; }
+
+tr:nth-child(even) td { background: #F1F1F1; }
+
+tr:nth-child(odd) td { background: #FEFEFE; }
+tr td:hover { background: #666; color: #FFF; }
+
+html,body {
+  background:#212121;
+  font-family:Helvetica, sans-serif;
+  font-size:12px;
+}
+
+.opcion_iluminada {
+    font-size: 20px;
+    color:#999;
+    text-decoration:none;
+    padding: 10px;
+  }
+  .opcion_iluminada:hover {
+    color:#fff;
+    text-shadow: 0px 0px 15px #fff;
+  }
