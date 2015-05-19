@@ -1,0 +1,133 @@
+
+body
+{
+	margin: 10px;
+	padding: 10px;
+/*	background:transparent url("fondo1.jpg")repeat;*/
+	background-color:rgba(81,186,209,0.5);
+}
+
+h1
+{
+	margin: 0;
+	padding: 0;
+	font-weight: 180;
+	color:blue;
+	text-align: center;
+	box-shadow: 10px 10px 10px rgba(2, 16, 6, 255);/*distancia x, y, difuminado, color*/
+	text-shadow:
+	0px 0px 20px rgba(0, 255,0,1),/*para aumentar el brillo se repite lo mismo varias veces*/
+	0px 0px 20px rgba(0, 255,0,1),
+	0px 0px 30px rgba(0, 255,0,1),
+	0px 0px 20px rgba(0, 255,0,1);
+}
+h2
+{
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	color:green;
+	text-align: center;
+	box-shadow: 10px 5px 7px rgba(2, 16, 6, 7.5);
+	text-shadow: 
+	1px 1px 0px rgba(230, 230,230,1),/*para aumentar el brillo se repite lo mismo varias veces*/
+	2px 2px 0px rgba(200, 200,200,1),
+	3px 3px 0px rgba(180, 180,180,1),
+	4px 4px 0px rgba(160, 165,160,1),
+	5px 5px 0px rgba(0, 0,0,1),
+	8px 8px 20px rgba(0, 5,0,.5);
+
+}
+.columna
+{
+	column-count: 3;
+	column-width: 100px;
+	column-gap: 20px;
+	column-width: 100px;
+	column-gap: 20px;
+	column-rule: 1px solid #ccc; /*se indico ancho estilo y color*/
+	column-rule: 1px solid #ccc;
+	
+	word-wrap:break-word;
+}
+
+.contenedor{
+    width: 100px;
+    margin: auto;
+    background: black;
+    color: #FFFFFF;
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+.button
+{
+	display: inline-block;
+	padding: 1.3em 3em;
+	background: #1B9772;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-o-transition: opacity 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;
+	letter-spacing: 0.20em;
+	text-transform: uppercase;
+	font-weight: 600;
+	box-shadow: 10px 5px 7px rgba(2, 16, 6, 7.5);
+	text-shadow: 
+	1px 1px 0px rgba(230, 230,230,.8),/*para aumentar el brillo se repite lo mismo varias veces*/
+	2px 2px 0px rgba(200, 200,200,.7),
+	3px 3px 0px rgba(180, 180,180,.6),
+	4px 4px 0px rgba(160, 165,160,.5),
+	5px 5px 0px rgba(0, 0,0,1),
+	8px 8px 20px rgba(0, 5,0,.1);
+	
+	transition: width 1s ease-in .2s; 
+	
+
+}
+.button:hover/*hover es cuando ponen el raton sobre el boton */
+{
+	display: inline-block;
+	padding: 1.3em 3em;
+	background: #1B0072;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-o-transition: opacity 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;
+	letter-spacing: 0.20em;
+	text-transform: uppercase;
+	font-weight: 600;
+	box-shadow: 10px 5px 7px rgba(2, 16, 6, 7.5);
+	text-shadow: 
+	0px 0px 20px rgba(0, 255,0,1),/*para aumentar el brillo se repite lo mismo varias veces*/
+	0px 0px 20px rgba(0, 255,0,1),
+	0px 0px 30px rgba(0, 255,0,1),
+	0px 0px 20px rgba(0, 255,0,1);
+
+	transition: width 1s ease-in 3s; 
+	
+
+}
+
+
+.borde
+{
+	margin:0 auto;
+	width:1000px;
+	height:1000px;
+	/*border:1px solid blue;*/
+	border-image: url("mosaico.jpg") 10 10 10 10 repeat repeat;
+	background:#7D79E8;
+}
+
+
+
+
+
+
